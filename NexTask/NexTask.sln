@@ -5,13 +5,13 @@ VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexTask.Api", "NexTask.API\NexTask.Api.csproj", "{416525F8-DAC9-4113-B5C5-8CA88A77CDA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexTask.Ui", "NexTask.UI\NexTask.Ui.csproj", "{339D107B-31E3-4905-92DD-B52F135F1435}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexTask.Shared", "NexTask.Shared\NexTask.Shared.csproj", "{31A54E38-4B99-4A65-AFC8-6C90F6A1CA2B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexTask.Bll", "NexTask.BLL\NexTask.Bll.csproj", "{F945C888-0D7E-4E95-8E97-18D2101F3985}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexTask.Dal", "NexTask.Dal\NexTask.Dal.csproj", "{84DFA4A8-CFB7-4E92-AD1E-91970589AE28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexTask.Ui", "NexTask.Ui\NexTask.Ui.csproj", "{32FBE442-4BA6-42E6-924C-C388E16B5E40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		{416525F8-DAC9-4113-B5C5-8CA88A77CDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{416525F8-DAC9-4113-B5C5-8CA88A77CDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{416525F8-DAC9-4113-B5C5-8CA88A77CDA4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{339D107B-31E3-4905-92DD-B52F135F1435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{339D107B-31E3-4905-92DD-B52F135F1435}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{339D107B-31E3-4905-92DD-B52F135F1435}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{339D107B-31E3-4905-92DD-B52F135F1435}.Release|Any CPU.Build.0 = Release|Any CPU
 		{31A54E38-4B99-4A65-AFC8-6C90F6A1CA2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{31A54E38-4B99-4A65-AFC8-6C90F6A1CA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31A54E38-4B99-4A65-AFC8-6C90F6A1CA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{84DFA4A8-CFB7-4E92-AD1E-91970589AE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84DFA4A8-CFB7-4E92-AD1E-91970589AE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84DFA4A8-CFB7-4E92-AD1E-91970589AE28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32FBE442-4BA6-42E6-924C-C388E16B5E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FBE442-4BA6-42E6-924C-C388E16B5E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FBE442-4BA6-42E6-924C-C388E16B5E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FBE442-4BA6-42E6-924C-C388E16B5E40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

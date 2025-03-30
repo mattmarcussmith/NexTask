@@ -398,4 +398,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
-/NexTask/NexTask.Api/appsettings.Development.json
+
+**/appsettings*.json
+
